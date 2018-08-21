@@ -59,6 +59,8 @@ class IndexPage extends React.Component {
       )
     )
 
+    const ordered = [...filtered].reverse()
+
     return (
       <Layout>
         <Flex mx={-3} flexWrap="wrap">
@@ -73,7 +75,7 @@ class IndexPage extends React.Component {
           <Box width={[1, 2 / 3]} p={4}>
             <Subhead>Contributions</Subhead>
             <FilterSummary filters={filters} />
-            {filtered.map((contrib, i) => (
+            {ordered.map((contrib, i) => (
               <Contribution key={i} {...contrib} />
             ))}
           </Box>
