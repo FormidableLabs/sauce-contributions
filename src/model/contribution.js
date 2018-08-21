@@ -7,7 +7,14 @@ const getProjects = notes => {
   const projects = []
   let project
   while ((project = regex.exec(notes))) {
-    const [url, org, repo] = project
+    const [url, _org, _repo] = project
+    let org = _org.toLowerCase()
+    const repo = _repo.toLowerCase()
+    // pretty formatting for formidacontribz
+    if (org === 'formidablelabs') {
+      org = 'FormidableLabs'
+    }
+
     projects.push({
       id: `${org}/${repo}`,
       url,
