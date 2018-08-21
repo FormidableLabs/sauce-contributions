@@ -8,6 +8,22 @@ const Content = styled(Box)`
   a {
     color: #18206f;
   }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+  }
 `
 
 const Formidagon = styled.img.attrs({
