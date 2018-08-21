@@ -1,0 +1,59 @@
+Date,Client,Project,Project Code,Task,Notes,Hours,Hours Rounded,Billable?,Invoiced?,First Name,Last Name,Roles,Employee?,Billable Rate,Billable Amount,Cost Rate,Cost Amount,Currency,External Reference URL
+8/14/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,,0.25,0.5,No,No,Joe,Alterio,,,,,,,,
+8/14/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Spotify GraphQL extension: https://github.com/exogen/graphbrainz-extension-spotify/commits/master,5,5,No,No,Brian,Beck,,,,,,,,
+8/14/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Researching strongswan high availability for an automation-friendly VPN project: https://wiki.strongswan.org/projects/strongswan/wiki/HighAvailability
+
+Came to the conclusion that ClusterIP/virtual IPs aren't compatible with AWS's VPC/networking. Next idea is to use AWS's Network Load Balancer for HA/failover.",1.5,1.5,No,No,Tyler,Thompson,,,,,,,,
+8/14/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/FormidableLabs/react-fast-compare
+- review and respond to PRs and issues
+
+https://github.com/chrisbolin/ethical-metrics
+- planning and init",1.5,1.5,No,No,Christopher,Bolin,,,,,,,,
+8/15/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,https://github.com/exogen/graphbrainz-extension-spotify/pull/1 + secret GraphBrainz schema refactor,3,3,No,No,Brian,Beck,,,,,,,,
+8/16/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Began working on ""yesno"", nock-style testing library for intercepting outbound requests https://github.com/ianwsperber/yesno",1,1,No,No,Ian,Walker-Sperber,,,,,,,,
+8/16/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* npm-extends experimental tool: https://github.com/exogen/npm-extends,2,2,No,No,Brian,Beck,,,,,,,,
+8/17/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"prism-react-renderer (Might or might not remain Formidasource):
+- Initial source for a Highlight component that renders Prism tokens directly to React using a downshift-inspired API
+- Vendored, slimmed down, non-global-namespace-polluting Prism
+- Testing",4,4,No,No,Phil,Plückthun,,,,,,,,
+8/17/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Tracking down a bug in Radium https://github.com/FormidableLabs/radium/issues/997,1.5,1.5,No,No,Kyle,Cesmat,,,,,,,,
+8/17/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Publish final version of postinstall-build and deprecate: https://github.com/exogen/postinstall-build/commits/master,0.5,0.5,No,No,Brian,Beck,,,,,,,,
+8/17/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Add support for Spotify track recommendations to GraphBrainz: https://github.com/exogen/graphbrainz-extension-spotify/commit/f9c55337bf969bd48ab22908aba3b62ce183b6f6,4,4,No,No,Brian,Beck,,,,,,,,
+8/18/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Tracking down a bug in Radium https://github.com/FormidableLabs/radium/issues/997,2,2,No,No,Kyle,Cesmat,,,,,,,,
+8/18/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Exploring `http` module to investigate mocking strategies, setup typescript in project",1.83,2,No,No,Ian,Walker-Sperber,,,,,,,,
+8/19/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Hopefully this will become future Formidable OSS, but for now it's under my own OSS (MIT license).
+
+I spent two hours today adding `graphql_ppx`: https://github.com/mhallin/graphql_ppx support to `reason-urql`: https://github.com/parkerziegler/reason-urql
+
+Adding this PPX rewriter allows users of `reason-urql` to get type validation for their GraphQL queries at compile time. I posted about `reason-urql` in the Reason Discord chat, and this was the major feature that future users of this library requested. I should be able to finish integration this week!",2,2,No,No,Parker,Ziegler,,,,,,,,
+8/20/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# oss-dev
+This new project will result in a cloud-hosted site for interacting with your clansmen (or clanswomen) in Clash of Clans via their API!
+
+# Day's Accomplishments
+Basic infrastructure stood up:
+* Created oss-dev GCP project
+* Obtained oss-dev domain
+* Stood up oss-dev cluster, nginx, letsencrypt
+* Captured static IP address
+* Obtained API key from Clash of Clans API
+
+# Links
+https://github.com/mscottx88/oss-project",3,3,No,No,Michael,Scott,,,,,,,,
+8/20/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## A11y UI - Basic setup
+https://github.com/rawrmonstar/a11y-ui
+
+- Started initial project set up for A11y UI
+- Added Disclosure component
+- Set up Docz for component library docs
+
+### Links
+- [Docs](https://a11y-ui.netlify.com/)",2,2,No,No,Tegan,Churchill,,,,,,,,
+8/21/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Sauce Contributions site
+https://github.com/FormidableLabs/sauce-contributions
+
+A website for tracking Sauce contributions. Learned me some Gatsby and Rebass -- neat stuff!",5,5,No,No,Jani,Eväkallio,,,,,,,,
+8/21/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/formidablelabs/react-native-app-auth
+
+Issues: #163, #129
+PRs: #151, #164, #165
+Release: v3.1.0",2,2,No,No,Kadi,Kraman,,,,,,,,
