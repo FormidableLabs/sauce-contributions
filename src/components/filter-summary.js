@@ -3,7 +3,6 @@ import Markdown from 'react-remarkable'
 import { Box, Text } from 'rebass'
 
 const format = options => {
-  console.log({ options })
   const label = options[0].summaryLabel
   if (options.length > 1) {
     return `${label} ${options.map(opt => `**${opt.label}**`).join(' or ')}`
@@ -14,6 +13,7 @@ const format = options => {
 
 const FilterSummary = props => {
   const summary = []
+
   for (const key in props.filters) {
     const filter = props.filters[key]
     if (filter && filter.length) {
@@ -27,6 +27,7 @@ const FilterSummary = props => {
         <Markdown>
           {summary.length ? summary.join(', ') : 'All contributions'}
         </Markdown>
+        <Text />
       </Text>
     </Box>
   )

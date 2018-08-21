@@ -60,6 +60,7 @@ class IndexPage extends React.Component {
     )
 
     const ordered = [...filtered].reverse()
+    const hours = ordered.reduce((sum, { hours }) => sum + hours, 0)
 
     return (
       <Layout>
@@ -73,7 +74,7 @@ class IndexPage extends React.Component {
             />
           </Box>
           <Box width={[1, 2 / 3]} p={4}>
-            <Subhead>Contributions</Subhead>
+            <Subhead>Contributions ({hours.toFixed(0)} hours)</Subhead>
             <FilterSummary filters={filters} />
             {ordered.map((contrib, i) => (
               <Contribution key={i} {...contrib} />
