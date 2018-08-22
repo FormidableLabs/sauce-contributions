@@ -11,7 +11,7 @@ yarn develop
 ```
 
 ### Local dev environment
-Open http://localhost:8000
+http://localhost:8000
 
 ### GraphiQL
 http://localhost:8000/___graphql
