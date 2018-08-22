@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Markdown from 'react-remarkable'
 import styled from 'styled-components'
 import randomColor from 'randomcolor'
@@ -45,7 +45,7 @@ const Projects = ({ projects }) => {
   return (
     <Box>
       {projects.map(p => (
-        <>
+        <Fragment key={p.id}>
           {isFormidable(p) ? <Formidagon /> : null}
           <Badge
             p={1}
@@ -64,7 +64,7 @@ const Projects = ({ projects }) => {
           >
             {p.repo}
           </Badge>
-        </>
+        </Fragment>
       ))}
     </Box>
   )

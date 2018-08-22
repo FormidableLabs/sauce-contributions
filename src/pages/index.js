@@ -1,13 +1,10 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import Facets from '../components/facets'
-import Contribution from '../components/contribution'
+import ContributionList from '../components/contribution-list'
 import FilterSummary from '../components/filter-summary'
 import harvest from '../model/harvest'
 import facets from '../model/facets'
-import Markdown from 'react-remarkable'
 
 import { Subhead, Flex, Box } from 'rebass'
 
@@ -42,12 +39,9 @@ class IndexPage extends React.Component {
     })
   }
 
-  render() {
-    const data = harvest(this.props.data.allHarvestCsv)
-    const filters = this.state.filters
-
+  filterData(data, filters) {
     // iterate over each item in data set, apply filters
-    const filtered = data.contributions.filter(item =>
+    return data.contributions.filter(item =>
       // iterate over filter arrays by type (filterId)
       // using AND logic (every filter type must match)
       Object.values(filters).every(
@@ -58,7 +52,13 @@ class IndexPage extends React.Component {
           options.some(option => option.match(item, option.key))
       )
     )
+  }
 
+  render() {
+    const data = harvest(this.props.data.allHarvestCsv)
+
+    const filters = this.state.filters
+    const filtered = this.filterData(data, filters)
     const ordered = [...filtered].reverse()
     const hours = ordered.reduce((sum, { hours }) => sum + hours, 0)
 
@@ -74,11 +74,9 @@ class IndexPage extends React.Component {
             />
           </Box>
           <Box width={[1, 2 / 3]} p={4}>
-            <Subhead>Contributions ({hours.toFixed(0)} hours)</Subhead>
+            <Subhead>Contributions ({hours.toFixed(1)} hours)</Subhead>
             <FilterSummary filters={filters} />
-            {ordered.map((contrib, i) => (
-              <Contribution key={i} {...contrib} />
-            ))}
+            <ContributionList items={ordered} />
           </Box>
         </Flex>
       </Layout>

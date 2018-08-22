@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Flex, Box, Text, ButtonCircle, ButtonTransparent } from 'rebass'
+import { Flex, Box, Text, ButtonCircle } from 'rebass'
 
 const Item = styled(Box)`
   opacity: ${p => (p.disabled ? 0.5 : 1)};
@@ -17,9 +17,8 @@ const Facet = props => {
         {props.title}
       </Text>
       {props.options.map(option => (
-        <Item disabled={isDisabled(props.filters, option)}>
+        <Item key={option.key} disabled={isDisabled(props.filters, option)}>
           <Flex
-            key={option.key}
             ml={3}
             mt={1}
             flexDirection="row"

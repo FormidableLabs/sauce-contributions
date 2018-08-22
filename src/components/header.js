@@ -1,21 +1,26 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Link } from 'gatsby'
 
+const HeaderBar = styled.header`
+  background: #140152;
+  margin-bottom: 1.45rem;
+`
+
+const HeaderContentContainer = styled.div`
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1.45rem 1.0875rem;
+`
+
+const Title = styled.h1`
+  margin: 0;
+`
+
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#140152',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 1200,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <HeaderBar>
+    <HeaderContentContainer>
+      <Title>
         <Link
           to="/"
           style={{
@@ -25,9 +30,9 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
-    </div>
-  </div>
+      </Title>
+    </HeaderContentContainer>
+  </HeaderBar>
 )
 
 export default Header

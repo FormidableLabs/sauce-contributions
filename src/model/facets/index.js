@@ -1,4 +1,3 @@
-import uniq from 'lodash/uniq'
 import flatten from 'lodash/flatten'
 import contributor from './contributor'
 import project from './project'
