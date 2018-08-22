@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box } from 'rebass'
 import Facet from './facet'
+
 const Facets = props => {
   return (
     <Box>
