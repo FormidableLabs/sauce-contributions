@@ -39,6 +39,7 @@
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
+    "gatsby-cli": "^1.1.58",
     "prettier": "^1.14.2"
   },
   "repository": {
