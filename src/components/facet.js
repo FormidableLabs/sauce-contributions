@@ -5,6 +5,7 @@ import { Flex, Box, Text, ButtonCircle } from 'rebass'
 
 const Item = styled(Box)`
   opacity: ${p => (p.disabled ? 0.5 : 1)};
+  cursor: pointer;
 `
 
 const isDisabled = (filters, option) =>
