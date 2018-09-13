@@ -1,4 +1,4 @@
-import orderBy from 'lodash/fp/orderBy'
+import sortBy from 'lodash/fp/sortBy'
 import identity from 'lodash/fp/identity'
 
 const keyFn = item => item.name
@@ -9,9 +9,9 @@ export default {
   accessor: identity,
   key: keyFn,
   label: item => item.name,
-  count: item => item.hours,
-  sort: orderBy(['count'], ['desc']),
-  countLabel: 'hours',
+  count: () => 1,
+  sort: sortBy('key'),
+  countLabel: 'contributions',
   summaryLabel: 'by',
   match: (contribution, filterKey) => {
     return keyFn(contribution) === filterKey
