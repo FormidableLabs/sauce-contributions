@@ -1,32 +1,35 @@
 Date,Client,Project,Project Code,Task,Notes,Hours,Hours Rounded,Billable?,Invoiced?,First Name,Last Name,Roles,Employee?,Billable Rate,Billable Amount,Cost Rate,Cost Amount,Currency,External Reference URL
-8/14/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,,0.25,0.5,No,No,Joe,Alterio,,,,,,,,
-8/14/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Spotify GraphQL extension: https://github.com/exogen/graphbrainz-extension-spotify/commits/master,5,5,No,No,Brian,Beck,,,,,,,,
-8/14/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Researching strongswan high availability for an automation-friendly VPN project: https://wiki.strongswan.org/projects/strongswan/wiki/HighAvailability
+2018-08-14,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Spotify GraphQL extension: https://github.com/exogen/graphbrainz-extension-spotify/commits/master,5,5,No,No,Brian,Beck,,,,,,,,
+2018-08-14,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Researching strongswan high availability for an automation-friendly VPN project: https://wiki.strongswan.org/projects/strongswan/wiki/HighAvailability
 
-Came to the conclusion that ClusterIP/virtual IPs aren't compatible with AWS's VPC/networking. Next idea is to use AWS's Network Load Balancer for HA/failover.",1.5,1.5,No,No,Tyler,Thompson,,,,,,,,
-8/14/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/FormidableLabs/react-fast-compare
+Came to the conclusion that ClusterIP/virtual IPs aren't compatible with AWS's VPC/networking. Next idea is to use AWS's Network Load Balancer for HA/failover.
+
+https://github.com/FormidableLabs/honcc",1.5,1.5,No,No,Tyler,Thompson,,,,,,,,
+2018-08-14,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/FormidableLabs/react-fast-compare
 - review and respond to PRs and issues
 
 https://github.com/chrisbolin/ethical-metrics
 - planning and init",1.5,1.5,No,No,Christopher,Bolin,,,,,,,,
-8/15/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,https://github.com/exogen/graphbrainz-extension-spotify/pull/1 + secret GraphBrainz schema refactor,3,3,No,No,Brian,Beck,,,,,,,,
-8/16/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Began working on ""yesno"", nock-style testing library for intercepting outbound requests https://github.com/ianwsperber/yesno",1,1,No,No,Ian,Walker-Sperber,,,,,,,,
-8/16/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* npm-extends experimental tool: https://github.com/exogen/npm-extends,2,2,No,No,Brian,Beck,,,,,,,,
-8/17/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"prism-react-renderer (Might or might not remain Formidasource):
+2018-08-15,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,https://github.com/exogen/graphbrainz-extension-spotify/pull/1 + secret GraphBrainz schema refactor,3,3,No,No,Brian,Beck,,,,,,,,
+2018-08-16,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Began working on ""yesno"", nock-style testing library for intercepting outbound requests https://github.com/ianwsperber/yesno",1,1,No,No,Ian,Walker-Sperber,,,,,,,,
+2018-08-16,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* npm-extends experimental tool: https://github.com/exogen/npm-extends,2,2,No,No,Brian,Beck,,,,,,,,
+2018-08-17,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/FormidableLabs/prism-react-renderer
+
+prism-react-renderer (Might or might not remain Formidasource):
 - Initial source for a Highlight component that renders Prism tokens directly to React using a downshift-inspired API
 - Vendored, slimmed down, non-global-namespace-polluting Prism
 - Testing",4,4,No,No,Phil,Plückthun,,,,,,,,
-8/17/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Tracking down a bug in Radium https://github.com/FormidableLabs/radium/issues/997,1.5,1.5,No,No,Kyle,Cesmat,,,,,,,,
-8/17/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Publish final version of postinstall-build and deprecate: https://github.com/exogen/postinstall-build/commits/master,0.5,0.5,No,No,Brian,Beck,,,,,,,,
-8/17/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Add support for Spotify track recommendations to GraphBrainz: https://github.com/exogen/graphbrainz-extension-spotify/commit/f9c55337bf969bd48ab22908aba3b62ce183b6f6,4,4,No,No,Brian,Beck,,,,,,,,
-8/18/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Tracking down a bug in Radium https://github.com/FormidableLabs/radium/issues/997,2,2,No,No,Kyle,Cesmat,,,,,,,,
-8/18/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Exploring `http` module to investigate mocking strategies, setup typescript in project",1.83,2,No,No,Ian,Walker-Sperber,,,,,,,,
-8/19/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Hopefully this will become future Formidable OSS, but for now it's under my own OSS (MIT license).
+2018-08-17,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Tracking down a bug in Radium https://github.com/FormidableLabs/radium/issues/997,1.5,1.5,No,No,Kyle,Cesmat,,,,,,,,
+2018-08-17,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Publish final version of postinstall-build and deprecate: https://github.com/exogen/postinstall-build/commits/master,0.5,0.5,No,No,Brian,Beck,,,,,,,,
+2018-08-17,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Add support for Spotify track recommendations to GraphBrainz: https://github.com/exogen/graphbrainz-extension-spotify/commit/f9c55337bf969bd48ab22908aba3b62ce183b6f6,4,4,No,No,Brian,Beck,,,,,,,,
+2018-08-18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Tracking down a bug in Radium https://github.com/FormidableLabs/radium/issues/997,2,2,No,No,Kyle,Cesmat,,,,,,,,
+2018-08-18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Exploring `http` module to investigate mocking strategies, setup typescript in project",1.83,2,No,No,Ian,Walker-Sperber,,,,,,,,
+2018-08-19,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Hopefully this will become future Formidable OSS, but for now it's under my own OSS (MIT license).
 
 I spent two hours today adding `graphql_ppx`: https://github.com/mhallin/graphql_ppx support to `reason-urql`: https://github.com/parkerziegler/reason-urql
 
 Adding this PPX rewriter allows users of `reason-urql` to get type validation for their GraphQL queries at compile time. I posted about `reason-urql` in the Reason Discord chat, and this was the major feature that future users of this library requested. I should be able to finish integration this week!",2,2,No,No,Parker,Ziegler,,,,,,,,
-8/20/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# oss-dev
+2018-08-20,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# oss-dev
 This new project will result in a cloud-hosted site for interacting with your clansmen (or clanswomen) in Clash of Clans via their API!
 
 # Day's Accomplishments
@@ -39,7 +42,7 @@ Basic infrastructure stood up:
 
 # Links
 https://github.com/mscottx88/oss-project",3,3,No,No,Michael,Scott,,,,,,,,
-8/20/18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## A11y UI - Basic setup
+2018-08-20,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## A11y UI - Basic setup
 https://github.com/rawrmonstar/a11y-ui
 
 - Started initial project set up for A11y UI
@@ -48,12 +51,373 @@ https://github.com/rawrmonstar/a11y-ui
 
 ### Links
 - [Docs](https://a11y-ui.netlify.com/)",2,2,No,No,Tegan,Churchill,,,,,,,,
-8/21/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Sauce Contributions site
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Sauce Contributions site
 https://github.com/FormidableLabs/sauce-contributions
 
 A website for tracking Sauce contributions. Learned me some Gatsby and Rebass -- neat stuff!",5,5,No,No,Jani,Eväkallio,,,,,,,,
-8/21/18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/formidablelabs/react-native-app-auth
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/formidablelabs/react-native-app-auth
 
 Issues: #163, #129
 PRs: #151, #164, #165
 Release: v3.1.0",2,2,No,No,Kadi,Kraman,,,,,,,,
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Two
+Upgraded letsencrypt certificate issuer to be cluster-wide (not namespaced)
+Created bare-bones HTTP app and deployed to GCP
+
+# Links
+https://github.com/mscottx88/oss-project",3,3,No,No,Michael,Scott,,,,,,,,
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## A11y UI - Configuration
+https://github.com/rawrmonstar/a11y-ui
+
+- Setup babel & updated to babel 7
+- Setup eslint
+- Setup prettier
+- Setup a rollup for producing es and cjs builds (had not done that before so it took me a bit figuring out a good config)
+
+### Links
+- [Config update commit](https://github.com/rawrmonstar/a11y-ui/commit/994412a46665f8fbab158d7a656f66734c992c89)",2,2,No,No,Tegan,Churchill,,,,,,,,
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Setup boilerplate and basic structure for the VPN project. Setting up the project to share variables between the Terraform and CloudFormation implementations. Tried Handlebars for CF templating, but it didn't feel powerful enough. Pulling in Nunjucks next (similar to Jinja2 in Python land).
+
+https://github.com/FormidableLabs/honcc",2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## React Fast Compare - release and research
+https://github.com/FormidableLabs/react-fast-compare/pull/33
+
+Cut a patch release, 2.0.2. A little bit of research on a new PR from the community.
+
+### Links
+- https://github.com/FormidableLabs/react-fast-compare/pull/33",0.5,0.5,No,No,Christopher,Bolin,,,,,,,,
+2018-08-21,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+- Altering `fetchOptions` API in `reason-urql` to use more semantic Reason variant syntax.
+- Beginning to elaborate on Client API beyond simple bindings to make API surface feel more ergonomic
+
+## Links
+- [Support proper `fetchOptions` by using `bs-fetch`.](https://github.com/parkerziegler/reason-urql/issues/10)",2,2,No,No,Parker,Ziegler,,,,,,,,
+2018-08-22,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Three
+Did some research / POC into using Daemonsets for nginx controllers",3,3,No,No,Michael,Scott,,,,,,,,
+2018-08-22,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## A11y UI - Planning
+https://github.com/rawrmonstar/a11y-ui
+
+- Try to debug why docz fails building the docs for production (unsuccessfully, I think it's a babel 7 plugin version mismatch).
+- Created project board
+- Added issues for some initial component work
+- Updated prop getter pattern to accept user props
+- Updated component docs pattern 
+- Added alert component
+- Added button component
+
+### Links
+- [Project Board](https://github.com/rawrmonstar/a11y-ui/projects/1)
+- [Commit](https://github.com/rawrmonstar/a11y-ui/commit/891f57e22179dc425b5a69476e0df4ce1b72fdf3)",3,3,No,No,Tegan,Churchill,,,,,,,,
+2018-08-22,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,* Create a maid-like PoC in order to learn remark: https://github.com/exogen/rundown,4,4,No,No,Brian,Beck,,,,,,,,
+2018-08-22,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+- Continuing to polish up `fetchOptions` API.
+- Updating examples and README.",1,1,No,No,Parker,Ziegler,,,,,,,,
+2018-08-22,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"##  Clean up!
+
+Improved [sauce-contributions](https://github.com/formidablelabs/sauce-contributions) code style to use it as a Formidable pairing exercise.
+
+The experiment on pairing in a ""real"" codebase was really good. It’s very instructive to see how people navigate and come to grips with a real project. It’s also cool, because gives the candidate a chance to talk about different things:
+- Gatsby
+- GraphQL
+- styled-components
+- Component libraries (we’re using rebass)
+- Markdown
+- Code organisation and refactoring
+- UX and UI
+
+But if they don't know any of that, no problem -- they can just do vanilla React!",1,1,No,No,Jani,Eväkallio,,,,,,,,
+2018-08-23,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+- Submitted and merged [pull request #11]( https://github.com/parkerziegler/reason-urql/pull/11) to update `fetchOptions` types, examples, and README. This closes [#10](https://github.com/parkerziegler/reason-urql/issues/10).
+
+## Links
+-[#11](https://github.com/parkerziegler/reason-urql/pull/11)",0.5,0.5,No,No,Parker,Ziegler,,,,,,,,
+2018-08-24,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Configuring instances, EIPs, instance policies, and a network load balancer for the VPN project. Considering adding health checks with an nginx route that runs `ipsec status`.
+
+https://github.com/FormidableLabs/honcc",2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-08-25,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle
+https://github.com/formidablelabs/spectacle
+
+Spectacle maintenance, incl. going through and reviewing/responding to older issues and PRs.
+
+Spent time looking into but not yet able to verify or give more info on issues 563 and 572.
+
+Bug Fixes:
+- allowing slide margins of 0 (#573)
+
+### Links
+- https://github.com/FormidableLabs/spectacle/pull/573
+- https://github.com/FormidableLabs/spectacle/issues/563
+- https://github.com/FormidableLabs/spectacle/issues/572",2,2,No,No,Emma,Brillhart,,,,,,,,
+2018-08-26,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## A11y UI
+https://github.com/rawrmonstar/a11y-ui
+
+- Get docs production build working again
+- Start slider component",1,1,No,No,Tegan,Churchill,,,,,,,,
+2018-08-26,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Spinning up a test VPC for the VPN resources. Learned that NLBs don't support UDP traffic :( Going to use round-robin routing through Route 53 instead. This'll require users to own/purchase a domain name unfortunately.
+
+https://github.com/FormidableLabs/honcc",2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-08-26,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+- Continuing to tackle issue [#5](https://github.com/parkerziegler/reason-urql/issues/5)
+- Refactoring demo `graphql-schema` to define non-nullable fields
+
+Hoping to land full `graphql_ppx` support by end of next week!
+
+## Links
+- [Consider using `graphql_ppx` for GraphQL queries.](https://github.com/parkerziegler/reason-urql/issues/5)",2,2,No,No,Parker,Ziegler,,,,,,,,
+2018-08-27,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Four
+Upgraded nginx controller to latest
+Refactored nginx annotations due to breaking changes
+Created COC API base app
+
+# Links
+https://github.com/mscottx88/oss-project/tree/master/coc-poc",3,3,No,No,Michael,Scott,,,,,,,,
+2018-08-27,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Spun up the test VPC and instances for the VPN project. Started configuring strongswan/ipsec. Researching Route53 for UDP load balancing in conjunction with ACM for client certificates (instead of on-instance self-signed CAs).
+
+https://github.com/FormidableLabs/honcc",2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-08-28,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Five
+Integrated first calls to COC API
+Started modeling out responses
+
+# Links
+https://github.com/mscottx88/oss-project/tree/master/coc-poc",2,2,No,No,Michael,Scott,,,,,,,,
+2018-08-28,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Since our HA VPN instances need shared identities, we can't create independent CAs on each instance anymore. Pivoting to solving the problem of managed PKI as a spinoff/precursor project. Researched and diagrammed a serverless PKI infrastructure using Aurora Serverless, Lambda, KMS, S3, and cfssl.
+
+https://github.com/FormidableLabs/honcc",1.5,1.5,No,No,Tyler,Thompson,,,,,,,,
+2018-08-28,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Released a new patch for enzyme-matchers. Worked through open issues,0.5,0.5,No,No,Blaine,Kasten,,,,,,,,
+2018-09-01,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,yesno: Figure out how to proxy requests using node's MITM library. Next need to figure out if we can properly proxy HTTPS using this lib,1,1,No,No,Ian,Walker-Sperber,,,,,,,,
+2018-09-01,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,https://github.com/exogen/next-plugin-node-config,5,5,No,No,Brian,Beck,,,,,,,,
+2018-09-01,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"react-native-reanimated
+Forked the repository for our RN EU workshop and investigated potential fixes and patches on the JS side to fix it's incompatibility with older Android devices and FluidTransitions.",1,1,No,No,Phil,Plückthun,,,,,,,,
+2018-09-03,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+- Opening PR for `graphql_ppx` integration.
+- Updates to README to include in depth API descriptions, better examples, and formal API table documentation.
+
+## Links
+https://github.com/parkerziegler/reason-urql/pull/12",2,2,No,No,Parker,Ziegler,,,,,,,,
+2018-09-03,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## CLI GUI
+Worked on investigating the use of web sockets to emulate a terminal in the browser - aim is to create something like hyper but without the electron dependency
+
+### Links
+- https://github.com/alex-saunders/cli-gui",3,3,No,No,Alex,Saunders,,,,,,,,
+2018-09-04,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Six
+Created clans endpoint
+Minor refactors in players endpoint
+Created SQL instance
+Created schema and tables for player historical metrics
+
+# Links
+https://platform.oss-dev.net/api/v1/coc-poc/clans/%2329Q2G8RR/members
+https://github.com/mscottx88/oss-project",2,2,No,No,Michael,Scott,,,,,,,,
+2018-09-04,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Started writing the krupki CLI! Wrote code to install Terraform local to the CLI, initialize Terraform, create Terraform resources in AWS, and create the root CA.
+
+https://github.com/FormidableLabs/krupki",1,1,No,No,Tyler,Thompson,,,,,,,,
+2018-09-04,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## CLI GUI 
+Attempted to write my own React fiber renderer that wraps around XTerm.js - to make rendering terminal output easier and more react-y
+
+### Links
+- https://github.com/alex-saunders/cli-gui",2,2,No,No,Alex,Saunders,,,,,,,,
+2018-09-05,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## React PR
+Opened a PR for React that warns against including HTML tags within SVGs
+
+### Links
+- https://github.com/facebook/react/issues/11013- https://github.com/facebook/react/pull/13516",2,2,No,No,Alex,Saunders,,,,,,,,
+2018-09-06,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Seven
+Some refactoring and script setup for historical database
+
+# Links
+https://github.com/mscottx88/oss-project",2,2,No,No,Michael,Scott,,,,,,,,
+2018-09-07,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# Krupki
+Wrote function to init the Terraform S3 backend. Added some command-line flags to `krupki init`.
+
+## Links
+https://github.com/FormidableLabs/krupki",1.5,1.5,No,No,Tyler,Thompson,,,,,,,,
+2018-09-08,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## Revived vscode-hacker-typer
+https://github.com/jevakallio/vscode-hacker-typer
+
+Continued work on long-iceboxed VSCode extension that makes it easier, safer and 200% cooler to live code in presentations.",3,3,No,No,Jani,Eväkallio,,,,,,,,
+2018-09-09,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"https://github.com/carlospaelinck/publications
+
+Delete Document Resolver; Delete Document DB Action; Delete Document UI actions",2,2,No,No,Carlos,Paelinck,,,,,,,,
+2018-09-09,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## Published alpha version of vscode-hacker-typer
+https://github.com/jevakallio/vscode-hacker-typer
+
+Implemented a whole bunch of functionality, and learned a lot about VSCode extensibility and TypeScript tooling along the way! 
+
+- [Needs documentation](https://github.com/jevakallio/vscode-hacker-typer/issues/2)
+- [Clean up and publish](https://github.com/jevakallio/vscode-hacker-typer/issues/13)
+- [Allow user to change selection](https://github.com/jevakallio/vscode-hacker-typer/issues/8)
+- [Support deleting macros](https://github.com/jevakallio/vscode-hacker-typer/issues/14)
+- [Support backspace](https://github.com/jevakallio/vscode-hacker-typer/issues/7)
+- [Support saving and loading saved scripts](https://github.com/jevakallio/vscode-hacker-typer/issues/4)
+- [Implement soft stops](https://github.com/jevakallio/vscode-hacker-typer/issues/5)
+- [Synchronise scroll position](https://github.com/jevakallio/vscode-hacker-typer/issues/12)",7,7,No,No,Jani,Eväkallio,,,,,,,,
+2018-09-10,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"## Released vscode-hacker-typer v0.1.0
+https://github.com/jevakallio/vscode-hacker-typer
+
+- Restore workspace state upon playback
+- Open new editor if no active editor and set editor language
+- Improved keybindings
+- Improved documentation",2.5,2.5,No,No,Jani,Eväkallio,,,,,,,,
+2018-09-11,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# Krupki
+Added code to bootstrap the Terraform remote backend.
+
+## Links
+https://github.com/FormidableLabs/krupki",2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-09-12,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"# Day Eight
+Created endpoints for registering players for tracking
+Created endpoints for capturing daily player and clan data
+
+#Links
+https://platform.oss-dev.net/api/v1/coc-history/players/%23C89PO2Q9
+https://github.com/mscottx88/oss-project/tree/master/coc-history",4,4,No,No,Michael,Scott,,,,,,,,
+2018-09-15,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,,1,1,No,No,Richard,Ray,,,,,,,,
+2018-09-15,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+- Exploring the custom cache section of `urql`'s API and writing basic bindings to type user-provided caching functions
+- Writing a thin wrapper for a `localStorage` caching mechanism in Reason
+
+## Links
+- https://github.com/parkerziegler/reason-urql/issues/6",2,2,No,No,Parker,Ziegler,,,,,,,,
+2018-09-16,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Added Rename Document Functionality! https://github.com/carlospaelinck/publications/commit/842db2717ad2f491066d95a93bfa50e72ca6a9c1,1,1,No,No,Carlos,Paelinck,,,,,,,,
+2018-09-16,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Fix reported GraphBrainz bug: https://github.com/exogen/graphbrainz/pull/86,1.5,1.5,No,No,Brian,Beck,,,,,,,,
+2018-09-16,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Add support for media tracks to GraphBrainz: https://github.com/exogen/graphbrainz/pull/87,1.5,1.5,No,No,Brian,Beck,,,,,,,,
+2018-09-16,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Debug issue with ConcordanceJS: https://github.com/concordancejs/concordance/issues/47,1,1,No,No,Brian,Beck,,,,,,,,
+2018-09-16,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,,3,3,No,No,Richard,Ray,,,,,,,,
+2018-09-16,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Updating radium backlog & issues, releasing @0.25.0",3,3,No,No,Kyle,Cesmat,,,,,,,,
+2018-09-17,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+- Continuing to work on a custom caching example using `localStorage` in Reason
+– Preparing last steps to merge custom caching into `master`
+
+## Links
+- https://github.com/parkerziegler/reason-urql/issues/6",2,2,No,No,Parker,Ziegler,,,,,,,,
+2018-09-18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle
+https://github.com/formidablelabs/spectacle
+
+Nothing too exciting - going through and creating a roadmap of maintenance tasks and goals for myself and to help clarify what should take priority when there are OSS people available unless there is something obviously urgent. Start plan of attack for an upcoming ~*~kind of surprise~*~ boilerplate release.",1,1,No,No,Emma,Brillhart,,,,,,,,
+2018-09-19,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle
+https://github.com/formidablelabs/spectacle
+
+Review, make a small fix to, and merge an old, recently updated PR adding a new bgLighten prop + bgImageStyleProp, update some documentation, hammer out hard deadlines for spectacle-boilerplate-mdx release",2,2,No,No,Emma,Brillhart,,,,,,,,
+2018-09-20,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle Boilerplate MDX
+https://github.com/formidablelabs/spectacle-boilerplate-mdx
+
+Start cleaning up the default presentation to show off more of the Spectacle functionality and more clearly emphasize that it's using MDX syntax.",1,1,No,No,Emma,Brillhart,,,,,,,,
+2018-09-22,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle Boilerplate MDX & Spectacle
+https://github.com/formidablelabs/spectacle-boilerplate-mdx
+https://github.com/formidablelabs/spectacle
+
+Lots of presentational updates to the MDX boilerplate starting presentation, including some theming tweaks and general polish. Start working on a new theme to release with the boilerplate and as a new ""plug and play"" theme for Spectacle main. Add a couple of open issues to the regular Spectacle backlog, including [an open issue for a beginner tutorial](https://github.com/FormidableLabs/spectacle/issues/594).",3,3,No,No,Emma,Brillhart,,,,,,,,
+2018-09-23,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,Finished Modals; Fixed Save functionality; https://github.com/carlospaelinck/publications/commit/3f2e33909680ad2ca04e39c4ff11519bda2555ff,2,2,No,No,Carlos,Paelinck,,,,,,,,
+2018-09-23,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+- Support `update` callback functionality with custom caches implemented in Reason.
+- Add support for invoking cache methods from `Connect`'s render prop.
+
+## Links
+The WiP branch is visible here: https://github.com/parkerziegler/reason-urql/tree/task/custom-caches
+
+## Remaining Todos on Feature
+- Update the README.
+- Add support for multiple examples being loaded from different roots.",3,3,No,No,Parker,Ziegler,,,,,,,,
+2018-09-24,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Victory - issue 895
+https://github.com/FormidableLabs/victory/pull/1118#discussion_r219207701
+
+Trying to figure out how to replace the `circle2` dependency with my own code.",2,2,No,No,Narin,Luangrath,,,,,,,,
+2018-09-26,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `redux-little-router`
+- Reviewing PRs #289 and #295, which both provide fixes to our TS defs.
+- Merged #295 and reached out to author of #289 for a rebase.
+
+## Links
+- https://github.com/FormidableLabs/redux-little-router/pull/289
+- https://github.com/FormidableLabs/redux-little-router/pull/295",1,1,No,No,Parker,Ziegler,,,,,,,,
+2018-09-27,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"graphql-markdown upgrade, test migration, new tests: https://github.com/exogen/graphql-markdown/pull/35",9,9,No,No,Brian,Beck,,,,,,,,
+2018-09-27,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"add basic docs with mk and they render, svgs get clobbbered though:
+https://github.com/DDunc/victory-docs-react-static/commits/master",4,4,No,No,David,Duncan,,,,,,,,
+2018-09-29,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Victory - (Almost) solve issue 895
+https://github.com/FormidableLabs/victory/pull/1118
+
+In the process of solving a surprising complicated bug where bar charts were being draw correctly. It's taken a lot longer than expected. I just did some code refactoring and testing.",2,2,No,No,Narin,Luangrath,,,,,,,,
+2018-09-29,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,https://github.com/DDunc/victory-docs-react-static/commit/497d42a59ffb9839ae1c665ead7069fea32e32d6,3,3,No,No,David,Duncan,,,,,,,,
+2018-09-30,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Victory - Solve issue #1119
+https://github.com/FormidableLabs/victory/issues/1119
+
+Allow users to enter a custom svg path for Victory-Bar component.",2,2,No,No,Narin,Luangrath,,,,,,,,
+2018-10-01,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,From last weekend; Added PDF generation https://github.com/carlospaelinck/publications/commit/ee202002dfd22c1e2c4c805bbf781f2eb02b0fd7,2,2,No,No,Carlos,Paelinck,,,,,,,,
+2018-10-01,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Handle PR and cut 5.0 release of graphql-markdown: https://github.com/exogen/graphql-markdown/commits/master,5,5,No,No,Brian,Beck,,,,,,,,
+2018-10-02,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle MDX Boilerplate
+https://github.com/formidablelabs/spectacle-mdx-boilerplate
+
+More work on polishing up the example presentation in the boilerplate in advance of the Oct. 15 release. Making sure to showcase a range of Spectacle functionality in MDX format.",1,1,No,No,Emma,Brillhart,,,,,,,,
+2018-10-02,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"https://github.com/DDunc/victory-docs-react-static/commit/646c744b70e55bfadaa5b9f49ba6c9a7e00f286b
+and
+https://github.com/DDunc/victory-docs-react-static/commit/497d42a59ffb9839ae1c665ead7069fea32e32d6",4,4,No,No,David,Duncan,,,,,,,,
+2018-10-03,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"Victory - Bar.js 
+
+- Pushed another commit to integrate with Lauren's feedback
+- https://github.com/FormidableLabs/victory/pull/1129",0.65,1,No,No,Narin,Luangrath,,,,,,,,
+2018-10-03,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Wrap up a proof of concept for YesNo, with example usage.",2,2,No,No,Ian,Walker-Sperber,,,,,,,,
+2018-10-05,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"add header, add gallery (busted)
+https://github.com/DDunc/victory-docs-react-static/commit/4bff2ad5a2b44e42019697a0fbfe8dd694ef811a
+
+further adventures in loading data props
+https://github.com/DDunc/victory-docs-react-static/commit/9d9bc7dde3c3f473894f50b0d6e0cc7aa20f7691",3,3,No,No,David,Duncan,,,,,,,,
+2018-10-06,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+- Coordinating alpha release of `reason-urql` (0.1.0-alpha).
+- Troubleshooting issues with `bsconfig.json` setup.
+
+## Links
+https://www.npmjs.com/package/reason-urql",3,3,No,No,Parker,Ziegler,,,,,,,,
+2018-10-06,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"add gallery links, add SEO
+https://github.com/DDunc/victory-docs-react-static/commit/c153b47b0d1caf13264be7467f3fc430c31af3d6
+ 
+move static, add proof of concept svg support for logo
+https://github.com/DDunc/victory-docs-react-static/commit/1b2c196243a2e1c08557f9613bc0e033655772f6
+
+add gallery rendering and sorting, add parser mission statement
+https://github.com/DDunc/victory-docs-react-static/commit/c153b47b0d1caf13264be7467f3fc430c31af3d6",6,6,No,No,David,Duncan,,,,,,,,
+2018-10-07,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Spectacle MDX Boilerplate
+https://github.com/formidablelabs/spectacle-mdx-boilerplate
+
+Working on feature parity between Original Spectacle Boilerplate and Spectacle MDX Boilerplate to showcase the same functionality in each
+
+Also start work on a blog post for release!",2,2,No,No,Emma,Brillhart,,,,,,,,
+2018-10-07,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+- Published `v0.1.0-beta` to `npm`.
+
+## Links
+
+- https://github.com/parkerziegler/reason-urql/releases",3,3,No,No,Parker,Ziegler,,,,,,,,
+2018-10-07,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Released react-typesetting: https://github.com/exogen/react-typesetting,16,16,No,No,Brian,Beck,,,,,,,,
+2018-10-08,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,https://github.com/FormidableLabs/victory/pull/1118,0.6,1,No,No,Narin,Luangrath,,,,,,,,
+2018-10-08,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"add semi-broken sidebar, add subheadings:
+https://github.com/DDunc/victory-docs-react-static/commit/8ca7c0108d1e07c9c8aa3bb02e12d03945cb8687",3,3,No,No,David,Duncan,,,,,,,,
+2018-10-09,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"sidebar category, wip
+https://github.com/DDunc/victory-docs-react-static/commit/08aef9dc153fbaa4",2,2,No,No,David,Duncan,,,,,,,,
+2018-10-12,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Filling out the database implementation of a decentralized, end-to-end encrypted messaging protocol.",1,1,No,No,Tyler,Thompson,,,,,,,,
+2018-10-13,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Continuing database work on messaging protocol,2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-10-14,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"## Final Prep for Spectacle MDX Release
+https://github.com/formidablelabs/spectacle
+https://github.com/formidablelabs/spectacle-boilerplate-mdx
+
+Final documentation updates for Spectacle adding info about the MDX boilerplate and general last-min polishing pre-release tomorrow!",1,1,No,No,Emma,Brillhart,,,,,,,,
+2018-10-14,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Added binary [de]serialization to the messaging protocol db implementation,1.5,1.5,No,No,Tyler,Thompson,,,,,,,,
+2018-10-16,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,"# `reason-urql`
+
+Complete initial test implementation using `bs-jest`. This involved adding basic, ergonomic Reason tests for the `Query` and `Mutation` modules.
+
+## Links
+https://github.com/parkerziegler/reason-urql/pull/15",2,2,No,No,Parker,Ziegler,,,,,,,,
+2018-10-17,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Put WIP on GitLab. Fighting prekey deserialization, digging into the Wire source to debug.
+
+https://gitlab.com/tptee/asylum",1,1,No,No,Tyler,Thompson,,,,,,,,
+2018-10-17,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,YesNo: Simplify interface for spying on requests,0.5,0.5,No,No,Ian,Walker-Sperber,,,,,,,,
+2018-10-18,Formidable,SAUCE,Formidable-SAUCE,Formidable Open Source,YesNo: Complete naive implementation of redact method,1,1,No,No,Ian,Walker-Sperber,,,,,,,,
+2018-10-18,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,"Got prekeys stored and readable; Add debug logging; start fleshing out device methods/request lifecycle; research Tor hidden service integration
+
+# Links
+https://gitlab.com/tptee/asylum",2,2,No,No,Tyler,Thompson,,,,,,,,
+2018-10-20,Formidable,SAUCE,Formidable-SAUCE,Other Open Source,Rearchitecting prototype; adding discovery-swarm networking,2,2,No,No,Tyler,Thompson,,,,,,,,
