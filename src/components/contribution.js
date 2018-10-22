@@ -43,7 +43,7 @@ const Projects = ({ projects }) => {
   }
 
   return (
-    <Box>
+    <Box mt={-3} px={3} pb={3}>
       {projects.map(p => (
         <Fragment key={p.id}>
           {isFormidable(p) ? <Formidagon /> : null}
@@ -71,8 +71,14 @@ const Projects = ({ projects }) => {
 }
 const Contribution = props => {
   return (
-    <Box bg="#eeeeee" p={3} mb={3}>
-      <Flex flexDirection="row" justifyContent="space-between">
+    <Box bg="#eeeeee" mb={3}>
+      <Flex
+        px={3}
+        pt={2}
+        bg="#cccccc"
+        flexDirection="row"
+        justifyContent="space-between"
+      >
         <Text fontSize={1} fontWeight="bold" mb={2}>
           {props.name} logged {props.hours} hours
         </Text>
@@ -80,7 +86,7 @@ const Contribution = props => {
           <i>{props.formattedDate}</i>
         </Text>
       </Flex>
-      <Content>
+      <Content p={3}>
         <Markdown options={{ linkify: true }}>{props.notes}</Markdown>
       </Content>
 
